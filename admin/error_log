@@ -1,0 +1,6 @@
+[11-Oct-2021 07:45:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ayurveda'@'localhost' (using password: YES) in /home4/webcrei1/public_html/ayurvedamd.in/admin/connect.php on line 2
+[11-Oct-2021 07:45:20 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home4/webcrei1/public_html/ayurvedamd.in/admin/index.php on line 3
+[11-Oct-2021 07:47:15 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'ayurveda'@'localhost' (using password: YES) in /home4/webcrei1/public_html/ayurvedamd.in/admin/connect.php on line 2
+[11-Oct-2021 07:47:16 UTC] PHP Warning:  session_start(): Cannot start session when headers already sent in /home4/webcrei1/public_html/ayurvedamd.in/admin/index.php on line 3
+[20-Oct-2021 10:00:20 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/webcrei1/public_html/ayurvedamd.in/admin/viewfeedback.php on line 62
+[20-Oct-2021 10:00:26 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home4/webcrei1/public_html/ayurvedamd.in/admin/viewfeedback.php on line 62

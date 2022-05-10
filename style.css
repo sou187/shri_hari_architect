@@ -1,0 +1,670 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+body{
+    font-size:14px;
+  }
+  
+  .container{
+   max-width:960px;
+    margin:0 auto;
+  }
+  .navi{
+    padding: 5px;
+  }
+
+  .nav-bar{
+    margin-left: 60px;
+    margin-right: 50px;
+  }
+
+  .navecation{
+    background: #000 !important;
+    height:80px !important;
+  }
+  nav ul{
+    margin-left: 50px;
+    margin-top: 15px;
+  }
+  nav ul ul{
+    margin-top: 5px;
+  }
+  nav ul li{
+    list-style:none;
+    float:left;
+    
+    padding-right:20px;
+  }
+  nav ul li a{
+    text-decoration:none;
+    color:#fff;
+    
+  }
+  nav ul li a:hover{
+    color: aliceblue;
+  }
+  .active{
+   border-bottom: 1px solid #DA1212;
+    color:#ffc400;
+  
+  }
+  nav ul ul li{
+    background-color: aliceblue;
+    margin-left: 5px;
+  }
+  .icon {
+    background-color: #fff;
+    /* #3797A4 */
+    border-radius: 50%;
+    height:30px;
+    width: 30px;
+    align-items: center;
+    margin-left: 4px;
+    color:#1A1A40;
+  }
+  .icon i{
+    font-size:20px;
+    margin-left:30%;
+  }
+
+  .nav-link{
+    color: #1A1A40 !important;
+    font-weight: bold;
+    
+  }
+
+/*-------------------------------- Inner Slider------------------------------------ */
+/* --------------------------------End slider css------------------------------------ */
+
+
+
+
+
+  /* ------------------------------------ABOUT PAGE CSS-------------------- */
+  .bg-about{
+    background: url(images/abstract.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+  }
+
+  .bord-line{
+    border-top: 6px solid red;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  }
+
+  .aboutusbox{
+    align-items: flex-end;
+    background: #F6F6F6;
+    border-left: 6px solid #001ED3;
+  }
+
+  .about-backimg{
+    background: url(images/industrial.jpg);
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+  }
+  .plan-img{
+    width:470px;
+    height:500px
+  }
+  .plan-img2{
+    margin-top:-40px
+  }
+  /* -----------------------------------END ABOUT--------------------------- */
+
+   /*======================= Service Section CSS ============================*/
+
+
+.service-box {
+	margin-bottom: 30px;
+}
+
+.service-box .sb-icon {
+	margin-bottom: 30px;
+	width: 100px;
+	height: 125px;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
+	background-color: transparent;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.service-box .sb-icon .sb-img-icon {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.service-box .sb-icon .sb-img-icon img {
+	opacity: 0.2;
+	max-height: 70px;
+	-webkit-transition: all 0.3s;
+	-o-transition: all 0.3s;
+	transition: all 0.3s;
+}
+
+.service-box .sb-icon::after {
+	content: "";
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: #fff;
+	left: 25px;
+	top: -80px;
+	-webkit-transform: rotate(-65deg);
+	    -ms-transform: rotate(-65deg);
+	        transform: rotate(-65deg);
+}
+
+.service-box .readmore {
+	font-size: 12px;
+	font-weight: 700;
+	color: #222222;
+	display: inline-block;
+	padding: 2px 0;
+	background-color: transparent;
+	-webkit-transition: all 0.4s;
+	-o-transition: all 0.4s;
+	transition: all 0.4s;
+}
+
+.service-box:hover .sb-icon {
+	background-color: #3fbbc0;
+}
+
+.service-box:hover .sb-icon .sb-img-icon {
+	left: 15px;
+	margin-bottom: 5px;
+}
+
+.service-box:hover .title{
+    border:1px solid #3fbbc0;
+}
+
+.service-box:hover .sb-icon .sb-img-icon img {
+	opacity: 1;
+}
+
+.service-box:hover .readmore {
+	background-color: #3fbbc0;
+	padding: 2px 10px;
+}
+
+/* ---------------------------------------------------------------------- */
+
+.BGimg{
+  background: url(images/living.jpg);
+  background-position: center;
+background-repeat: no-repeat; 
+background-size: cover;
+height: 70vh;
+margin-top: 5px;
+}
+/* ----------------------------------------slider------------------------------------- */
+
+.card-img-overlay{
+  opacity: 0;
+  padding-top: 150px;
+  
+}
+.card-img-overlay:hover{
+  opacity: 1;
+  background:linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9));
+}
+
+/*---------------- end service section------------------------*/
+  
+  
+  .back-img{
+    background: url(images/archi2.jpg);
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  }
+  .back-img2{
+    background: url(images/archi3.jpg);
+    background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100%;
+  height: 400px;
+  padding: 5px;
+  }
+  .content-tit{
+    padding-top: 30%;
+  }
+  .content-tit p {
+font-family: 'Montserrat', sans-serif;
+color: #fff;
+letter-spacing: 8px;  
+font-size: 30px;
+font-weight: bold;
+  }
+
+.horizental-line{
+  margin-top: 10px;
+  height: 2px;
+  background-color: gray;
+  width: 50px;
+  transition: 0.8;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.horizental-line:hover{
+  transform: rotate(40deg);
+}
+
+.center-div{
+  padding-top: 40px;
+}
+
+.title1{
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 7px;
+}
+
+.hr_line{
+  margin-left: 15px;
+  letter-spacing: 2px;
+}
+
+/* ===========================button style============================ */
+.btn-styl a{
+  text-decoration: none;
+  color: #000;
+}
+.my_button {
+  width: 150px;
+  height: 50px;
+  border: 2px solid #000;
+  font-size: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 0;
+  transition: 2s;
+  margin-top: 10px;
+}
+
+.my_button::before,
+.my_button::after {
+  position: absolute;
+  background: #fff;
+  z-index: -1;
+  transition: 1.5s;
+  content: ''
+}
+
+.my_button::before {
+  height: 50px;
+  width: 130px
+}
+
+.my_button::after {
+  width: 150px;
+  height: 30px
+}
+
+.my_button:hover::before {
+  width: 0px;
+  background: #fff
+}
+
+.my_button:hover::after {
+  height: 0px;
+  background: #fff
+}
+
+.my_button:hover {
+  background: #fff
+}
+
+/* =============================contact page========================= */
+
+.top-class{
+  margin-top:110px;
+}
+
+
+.border-style{
+  border:none;
+  border-bottom: 1px solid #000;
+}
+.contact-icon{
+  height:30px !important;
+  width:30px !important;
+}
+/* =============================End contact========================== */
+
+/* ==============================gallery============================= */
+.sect-img{
+  background:url("images/section-img.jpg");
+  height:60vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+ 
+}
+
+.sect-title .sect-tit{
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  letter-spacing: 5px;  
+  font-size: 45px;
+  padding-top: 100px; 
+  margin-left: 200px;
+   
+   }
+   /* .sect-tit {
+    border-bottom: 2px solid white; 
+    width:80px;
+   } */
+    .sect-tit span{
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+      letter-spacing: 6px; 
+    }
+
+.bg-img{
+  background:url("images/architect.jpg"); 
+  /* height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+
+}
+.bg-img:hover{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/architect.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative; 
+}
+
+
+
+.bg-img1{
+   background-image: url("images/archi1.jpg");
+  /*background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;*/
+
+}
+
+.bg-img1:hover{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/archi1.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.bg-img2{
+  background-image: url("images/archi2.jpg");
+  /* background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+
+}
+.bg-img2:hover{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/archi2.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.bg-img3{
+  background:url("images/archi3.jpg");
+  /* background-color: #cccccc;
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative; */
+
+}
+.bg-img3:hover{
+  background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/archi3.jpg");
+  height: 300px;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* background-size: cover; */
+  position: relative;
+}
+
+.wrap {
+	width:200px; 
+	margin:auto;  
+	z-index:1;
+  margin-top: 30%;
+  margin-left: 45%;
+  opacity: 0;
+}
+
+.background-img:hover .wrap{
+  opacity: 1;
+  }
+
+
+
+.msg {
+  color: white;
+  text-align:center;
+  font-family: 'Bree Serif', Courier, monospaced;
+  font-size:10px;
+  width:30px;
+  height:30px;
+  padding-top:8px;
+  position:absolute;
+  margin:6px 0 0 6px;
+  pointer-events: none; 	
+  background-color: #ffc400;
+  
+}
+
+.sticker {
+  width:42px;
+  height:42px;
+  position:absolute;
+  border:1.5px solid #ffc400;
+  animation: spin 2s linear infinite;
+  /*Set our animation play state to paused initially */
+  animation-play-state: paused; 
+}
+
+.background-img:hover .sticker{
+  animation-play-state: initial;
+  transform: rotate(90deg);
+}
+@keyframes spin {
+  100% {transform: scale(1.5);}
+}
+/* ----------------------------------------footer------------------------------------ */
+
+.banner-footer{
+  background:url("images/footer-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: auto;
+}
+
+.txt-color p{
+color: #fff;
+}
+/* -----------------------------------End footer-------------------------------------- */
+/* -------------------------------------------------------------------------------*/
+
+
+
+
+/* =================================================================== */
+.bg-clr{
+  background-color: transparent;
+  background-image: linear-gradient(270deg, #f7f5f5 43%, #00215B 0%);
+}
+.div-content{
+  color:#fff;
+  padding-top: 150px;
+}
+.first-img{
+  padding:30px;
+  background-color: #fff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;;
+  
+}
+.first-img h4{
+  margin-bottom: 6px;
+    font-size: 22px;
+    line-height: 26px;
+    font-weight: 500;
+    color: #16213e;
+    
+}
+
+/* ---------------------------------------------------------------------------------- */
+.haver-border {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding: 12px;
+}
+.haver-border::before, .haver-border::after {
+  content: "";
+  position: absolute;
+  transition: all 0.9s ease;
+  background:  white;
+}
+.haver-border::before {
+  width: 100%;
+  height: 1px;
+  top: 30px;
+  left: 300px;
+  transform: skewX(45deg);
+  z-index: 999;
+}
+.haver-border::after {
+  width: 1px;
+  height: 100%;    
+  /* left: auto; */
+  left: 30px;
+  bottom: 120%;
+  transform: skewY(45deg);
+}
+.haver-border:hover::before{
+  left: 10px;
+}
+.haver-border:hover::after{
+  bottom: 6px;
+}
+/* ======================================================= */
+
+
+
+/* ========================================================== */
+
+
+@media screen and (max-width:768px){
+  .div-content .txt-clor{
+color:#3d69e0;
+  }
+}
+@media screen and (max-width:768px){
+  .div-content .sect-txt{
+font-size: 20px;
+  }
+}
+
+@media screen and (max-width:768px){
+  .sect-title{
+text-align: center;
+margin-left: -197px;
+  }
+}
+@media screen and (max-width:768px){
+  .sect-img{
+    background:url("images/section-img.jpg");
+    height:50vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+   
+  }
+}
+/* ===========================End gallery===================================== */
+
+
+
+@media screen and (max-width:768px){
+  .hr_line{
+      text-align: center;
+  } 
+}
+/* ================================================================================ */
+@media only screen and (max-width: 768px) {
+  ul .icon{
+    margin-left: 5px;
+  }
+}
+/* .carousel-inner{
+  height:100vh;
+} */
+
+@media only screen and (max-width: 768px) {
+  .carousel-item img{
+    height:500px;
+  } 
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-inner{
+    height:50vh
+  } 
+}
+
+/* =============================contact media query======================= */
+@media only screen and (max-width: 768px) {
+  .contact-form{
+margin-left: 25%;
+margin-bottom: 25px;
+  }
+}
+
+
+
